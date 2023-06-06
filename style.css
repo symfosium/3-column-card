@@ -1,0 +1,96 @@
+body {
+   background-color: #F2F2F2;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 940px;
+   padding: 10px;
+   display: flex;
+   margin: 0 auto;
+}
+
+.card {
+   padding: 48px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.card_orange {
+   background-color: #E28625;
+}
+
+.card_light-green {
+   background-color: #006971;
+}
+
+.card_dark-green {
+   background-color: #004140;
+}
+
+.card__icon {
+   width: 100%;
+   height: 40px;
+   background-repeat: no-repeat;
+   margin-bottom: 35px;
+}
+
+.sedans-car {
+   background-image: url(./images/icon-sedans.svg);
+}
+
+.suvs-car {
+   background-image: url(./images/icon-suvs.svg);
+}
+
+.luxury-cars {
+   background-image: url(./images/icon-luxury.svg);
+}
+
+
+.card__title {
+   color: #F2F2F2;
+   font-weight: 700;
+   font-family: 'Big Shoulders Display', sans-serif;
+   font-size: 2.5rem;
+   margin-bottom: 25px;
+}
+.card__text {
+   line-height: 1.66;
+   font-family: 'Lexend Deca', sans-serif;
+   color: #fff;
+   font-size: 0.9rem;
+   margin-bottom: 83px;
+}
+
+.card__button {
+   background-color: #F2F2F2;
+   color: #E28625;
+   border-radius: 25px;
+   border: none;
+   padding: 11px 32px;
+   cursor: pointer;
+   transition: all ease-in-out 0.3s;
+   border: 1px solid #fff;
+}
+
+.card__button:hover {
+   background-color: transparent;
+   color: #fff;
+}
+
+@media(max-width: 771px) {
+   .container {
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
