@@ -3,6 +3,9 @@ body {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   min-height: 100vh;
+   display: grid;
+place-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
    max-width: 940px;
    padding: 10px;
    display: flex;
-   margin: 0 auto;
 }
 
 .card {
